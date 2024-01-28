@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Honk&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+body {
+  background-color: #f1e5bc;
+}
+header {
+  height: 62vh;
+  width: 97%;
+  display: block;
+}
+.t1 {
+  padding-left: 2.5%;
+  padding-top: 2%;
+  font-family: "Honk", system-ui;
+  font-size: 3vh;
+  width: 100%;
+  height: 25vh;
+}
+.t1 > h1 {
+  display: block;
+  font-size: 5em;
+}
+.t1 > h2 {
+  font-family: "Sixtyfour", sans-serif;
+  display: inline;
+  font-size: 90%;
+}
+
+.t1 > div > img {
+  display: block;
+  height: 6em;
+  width: 5em;
+  border-radius: 50%;
+  padding-left: 0.27em;
+  margin: 0;
+  padding-top: 0.27em;
+}
+#border {
+  padding: 0;
+  margin: 0;
+  border: 0px;
+  background-color: #ffa69e;
+  display: block;
+  height: 6.5em;
+  width: 5.5em;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+#f2 {
+  font-family: "Share Tech", sans-serif;
+}
+.skills {
+    font-size: 4vh;
+    padding-top: 1%;
+  padding-left: 2.5%;
+  color: 5e6472;
+  font-family: 'Bungee Spice', sans-serif;
+}
+.skills > img {
+  height: 0.8em;
+}
+
+.content{
+    padding-top: 0.6%;
+    padding-left: 5%;
+    font-family: "Share Tech", sans-serif;
+    font-size: 1.5em;
+    width: 80vw;
+}
+dt{
+  color: #5E6472;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+dl{
+  padding-left: 2.5% !important;
+}
+dd{
+  padding-left: 3%;
+}
+.social{
+  margin: 2.5%;
+  height: 4em;
+width: 4em;
+}
